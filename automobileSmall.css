@@ -285,7 +285,7 @@
     /* ------------END COPYRIGHT------------------*/
 
     /* ABOUT US PAGE */
-    .sub{
+    .sub {
         height: 10vh;
         width: 100%;
         background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car11.jpg);
@@ -294,9 +294,11 @@
         text-align: center;
         color: #ffffff;
     }
-   #mobile h4{
-    display: none;
-   }
+
+    #mobile h4 {
+        display: none;
+    }
+
     .sub h1 {
         padding-top: 8%;
         font-size: 15px;
@@ -304,55 +306,57 @@
         /* color: #262626; */
         /* font-size: 50px; */
     }
-    
+
     .row {
         flex-direction: column;
     }
-    
-   
+
+
     .about-us {
-        
+
         display: none;
     }
 
-   .about-us2{
-    display: block;
-    width: 100%;
-    padding-top: 10px;
-   }
-       
+    .about-us2 {
+        display: block;
+        width: 100%;
+        padding-top: 10px;
+    }
+
     .about-col3 img {
         width: 80%;
         margin-left: 10%;
         margin-top: 5%;
         /* /* height: 100%; */
-   
+
     }
+
     .about-col3 {
         padding: 15px 0 25px;
         /* padding-left: 10%; */
         margin-top: 5%;
     }
+
     .about-col3 h3 {
         text-align: center;
         margin-bottom: -10%;
         /* margin-top: 10%; */
-    } 
-   
- .about-col3 p {
-        padding: 15px ;
+    }
+
+    .about-col3 p {
+        padding: 15px;
         text-align: center;
         justify-content: center;
         /* padding-top: 5%; */
         /* padding-left: 5%; */
-         font-size: 13px;
-        margin-top: 10%; 
+        font-size: 13px;
+        margin-top: 10%;
     }
-   
+
     .about-us a {
         color: #000000;
     }
-   
+
     .btn1 {
         display: flex;
         color: black;
@@ -363,57 +367,57 @@
         position: relative;
         cursor: pointer;
         border-radius: 5%;
-        width:50%;
+        width: 50%;
         margin-left: 25%;
         justify-content: center;
-   
+
     }
-   
+
     .btn1 a {
         text-decoration: none;
         color: #000000;
     }
-   
+
     .btn1:hover {
         border: 1px solid #daa520;
         background: #fdf171;
         transition: 1s;
     }
-   
-   
-   
+
+
+
     /* -------SECOND COLUMN----------- */
-   
+
     .about-col2 img {
         width: 80%;
         margin-left: 10%;
         margin-top: -18%;
         /* height: 100%; */
-   
+
     }
-   
+
     .about-col2 {
         padding: 15px 0 25px;
         /* padding-left: 10%; */
         margin-top: 5%;
     }
-   
+
     .about-col2 p {
-        
-        padding: 15px ;
+
+        padding: 15px;
         text-align: center;
         /* padding-top: 5%; */
         padding-left: 5%;
-         font-size: 13px;
-        margin-top: -2%; 
+        font-size: 13px;
+        margin-top: -2%;
     }
-   
+
     .about-col2 h3 {
         text-align: center;
         margin-top: 10%;
     }
-    
-   
+
+
     .btn {
         display: inline-block;
         color: white;
@@ -425,21 +429,21 @@
         cursor: pointer;
         border-radius: 5%;
         margin-left: 2%;
-   
+
     }
-   
+
     .btn a {
         text-decoration: none;
     }
-   
+
     .btn:hover {
         border: 1px solid #daa520;
         background: #fdf171;
         transition: 1s;
     }
-   
-   
-   
+
+
+
     /*----------------END ABOUT US PAGE---------------------*/
 
     .contact-banner {
@@ -456,43 +460,43 @@
         padding-top: 8%;
         font-size: 15px;
         text-align: center;
-   
+
     }
-   
+
     .con-content {
-    flex-direction: column;
-   
+        flex-direction: column;
+
     }
-    
-    .contact-left{
+
+    .contact-left {
         margin-top: -12%;
     }
-    
-   .contact-left p {
-    margin-top: 10%;
-    font-size: 112%;
-}
 
-.contact-left p i {
-    color: red;
-    /* margin-right: 15px; */
-    font-size: 135%;
-}
+    .contact-left p {
+        margin-top: 10%;
+        font-size: 112%;
+    }
+
+    .contact-left p i {
+        color: red;
+        /* margin-right: 15px; */
+        font-size: 135%;
+    }
 
     .content1 {
         color: #777777;
         font-weight: 600;
-        margin-bottom: 10px ;
+        margin-bottom: 10px;
         padding-left: 3%;
     }
-   
-    
-   
-   .soc-med1 {
+
+
+
+    .soc-med1 {
         margin-top: 30px;
     }
-   
-   
+
+
     .soc-med1 a {
         text-decoration: none;
         margin-top: 10%;
@@ -505,40 +509,43 @@
         justify-content: center;
         transition: transform 1s;
     }
-   
+
     .soc-med1 a:hover {
         color: orange;
         transform: translateY(-5px);
     }
 
-    h3{
+    h3 {
         color: #777777;
         font-size: 150%;
         justify-content: center;
         text-align: center;
         margin-top: 8%;
-    } 
-   .con-left{
-    margin-bottom: 15%;
-   }
+    }
+
+    .con-left {
+        margin-bottom: 15%;
+    }
+
     form {
         width: 100%;
         margin-left: -5%;
     }
-   
-    form input,form textarea {
+
+    form input,
+    form textarea {
         width: 100%;
         border: 0;
         outline: none;
         background: #262626;
         padding: 15px;
-        margin: 15px ;
+        margin: 15px;
         color: #fff;
         font-size: 12px;
         justify-content: center;
         /* border-radius: 6px; */
     }
-   
+
     .btn-btn3 {
         display: inline-block;
         text-decoration: none;
@@ -553,59 +560,61 @@
         cursor: pointer;
         margin-bottom: -18%;
     }
-   
+
     .btn-btn3:hover {
         border: 1px solid orangered;
         background: orange;
         transition: 1s;
     }
-   
+
     #msg {
         color: red;
         margin-top: 20px;
         display: block;
     }
-   
+
     /*----------PRODUCT PAGE--------*/
 
- .p-banner {
-    height: 10vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car12.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-    padding: 20px;
-}
+    .p-banner {
+        height: 10vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car12.jpg);
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        color: #ffffff;
+        padding: 20px;
+    }
 
-.p-banner h1 {
-    padding-top: 4%;
-    font-size: 15px;
-    text-align: center;
-    
-}
-#cart{
-    margin-top: 10%;
-    overflow: auto;
-    /* margin-left: 10%; */
- 
- }
+    .p-banner h1 {
+        padding-top: 4%;
+        font-size: 15px;
+        text-align: center;
 
-#cart-add{
-    flex-direction: column;
-}
+    }
 
-#subtotal{
-    /* width: 50%; */
-    margin-top: -50%;
-    border: 0px solid #e2e9e1;
-    padding: 20px;
-    margin-right: 0%;
-}
-#subtotal table{
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-}
+    #cart {
+        margin-top: 10%;
+        overflow: auto;
+        /* margin-left: 10%; */
+
+    }
+
+    #cart-add {
+        flex-direction: column;
+    }
+
+    #subtotal {
+        /* width: 50%; */
+        margin-top: -45%;
+        border: 0px solid #e2e9e1;
+        padding: 20px;
+        margin-right: 0%;
+    }
+
+    #subtotal table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-top: 20px;
+    }
 }
