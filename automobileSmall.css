@@ -283,10 +283,12 @@
     }
 
     /* ------------END COPYRIGHT------------------*/
+
+    /* ABOUT US PAGE */
     .sub{
         height: 10vh;
         width: 100%;
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(car11.jpg);
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car11.jpg);
         background-position: center;
         background-size: cover;
         text-align: center;
@@ -316,29 +318,34 @@
    .about-us2{
     display: block;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 10px;
    }
        
-    .about-col img {
+    .about-col3 img {
         width: 80%;
         margin-left: 10%;
-        margin-top: -2%;
+        margin-top: 5%;
         /* /* height: 100%; */
    
     }
-   
-    .about-col h3 {
+    .about-col3 {
+        padding: 15px 0 25px;
+        /* padding-left: 10%; */
+        margin-top: 5%;
+    }
+    .about-col3 h3 {
         text-align: center;
-        margin-bottom: -12%;
+        margin-bottom: -10%;
+        /* margin-top: 10%; */
     } 
    
- .about-col p {
+ .about-col3 p {
         padding: 15px ;
         text-align: center;
         justify-content: center;
         /* padding-top: 5%; */
         /* padding-left: 5%; */
-         font-size: 10px;
+         font-size: 13px;
         margin-top: 10%; 
     }
    
@@ -397,7 +404,7 @@
         text-align: center;
         /* padding-top: 5%; */
         padding-left: 5%;
-         font-size: 10px;
+         font-size: 13px;
         margin-top: -2%; 
     }
    
@@ -438,7 +445,7 @@
     .contact-banner {
         height: 10vh;
         width: 100%;
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(car8.jpeg);
+        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car8.jpeg);
         background-position: center;
         background-size: cover;
         text-align: center;
@@ -512,7 +519,7 @@
         margin-top: 8%;
     } 
    .con-left{
-    margin-bottom: -25%;
+    margin-bottom: 15%;
    }
     form {
         width: 100%;
@@ -564,7 +571,7 @@
  .p-banner {
     height: 10vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(car12.jpg);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car12.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -573,10 +580,17 @@
 }
 
 .p-banner h1 {
-    padding-top: 8%;
+    padding-top: 4%;
     font-size: 15px;
     text-align: center;
+    
 }
+#cart{
+    margin-top: 10%;
+    overflow: auto;
+    /* margin-left: 10%; */
+ 
+ }
 
 #cart-add{
     flex-direction: column;
@@ -584,9 +598,14 @@
 
 #subtotal{
     /* width: 50%; */
-    margin-top: 8%;
-    border: 1px solid #e2e9e1;
-    padding: 30px;
+    margin-top: -50%;
+    border: 0px solid #e2e9e1;
+    padding: 20px;
     margin-right: 0%;
+}
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
 }
 }
