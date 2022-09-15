@@ -1,0 +1,113 @@
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<head>
+    <title>OVA AUTOMOBILE</title>
+    <link rel="stylesheet" input type="text/css" href="automobile.css">
+    <link rel="stylesheet" input type="text/css" href="automobileSmall.css">
+    <script src="https://kit.fontawesome.com/af621931a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+    <section class="header">
+        <div class="navbar">
+                <div id="mobile">
+                    <h4>OVA</h4>
+                    <i class="fas fa-car"></i>
+                    
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="Automobile.html">Home</a></li>
+                    <li> <a href="AutomobileAbout.html">About</a></li>
+                    <li><a href="AutomobileProd.html">Products</a></li>
+                    <li> <a href="AutomobileContact.html">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+    
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+            <div class="contact-banner">
+            <h1>Contact Us</h1>
+        </div>
+
+  </section>
+
+        
+        <section class="con-content">
+            <div class="contact-left">
+                <h3 class="content1">Contact Us On</h3>
+                    <p><i class="fa-solid fa-paper-plane"></i> OvaAutomobile@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +234815670891</p>
+                    <div class="soc-med1">
+                        <a href="http://facebook.com"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                
+            </div>
+
+            <div class="con-left">
+                    <h3>Leave a Message</h3><br> 
+                        <form name='submit-to-google-sheet'>
+                            <input type="text" name="Name" placeholder="Your Name" required><br>
+                            <input type="email" name="Email" placeholder="Your@gmail.com" required><br>
+                            <textarea rows="6" name="Message" placeholder="Leave a message"></textarea><br>
+                            <button type="submit" class="btn-btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                  
+            </div>
+
+        </section>
+
+
+        <!-------FOOTER------------->
+        <div class="copyright">
+            <p>Copyright @KayodeBukola. Made with<i class="fa-solid fa-code"></i>by OvaDev</p>
+           </div>
+    
+
+           <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx11lAD-2CE6F7K2VPvd9JEB89E8B1Ve2ALOu4Su8IDJ5CIDxBcj--wk1r_IO1PTCee/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = 'Message Sent Successfully'
+                //     setTimeout(function(){
+                //         msg.innerHTML = ""
+                //     },5000)
+                    form.reset()}
+                )
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script> <!-- JAVASCRIPT FOR SIDE MENU -->
+    <script src="to-top.js"></script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+    <!-- END FOR SIDE MENU -->
+
+
+
+
+</body>
+
+
+</html>
