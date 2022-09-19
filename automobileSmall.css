@@ -619,14 +619,14 @@
     }
 
     #coup input {
-        padding: 15px 60px;
+        padding: 10px 60px;
         outline: none;
         width: 60%;
         /* margin-right: 10px; */
         justify-content: center;
         align-items: center;
         border: 1px solid #e2e9e1;
-        margin-top: -10px;
+        margin-top: -15px;
     }
 
     #subtotal {
