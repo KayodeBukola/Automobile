@@ -596,6 +596,7 @@
     #cart {
         margin-top: 10%;
         overflow: auto;
+        /* overflow: visible; */
         /* margin-left: 10%; */
 
     }
@@ -604,6 +605,18 @@
         flex-direction: column;
     }
 
+    #coup{
+        /* width: 50%; */
+        margin-top: 50px;
+        margin-left: 2%;
+        flex-basis: 40%;
+    }
+    
+    #coup h3{
+        padding-bottom: 50px;
+    
+    }
+    
     #subtotal {
         /* width: 50%; */
         margin-top: -38%;
