@@ -1,9 +1,14 @@
-/* CSS FOR SMALL SCREEN */
-@media only screen and (max-width: 500px) {
+/* FOR IPAD RESPONSIVENESS...............................................IPAD............ */
+@media (min-width: 651px) and (max-width: 900px){
+    
     #mobile i {
         color: red;
         font-size: 28px;
     }
+   
+   #mobile h4{
+    display: none;
+   }
 
     h4 {
         color: white;
@@ -48,8 +53,6 @@
 
     /* END NAV */
 
-
-
     /* body */
 
     /* PRODUCTS */
@@ -72,16 +75,19 @@
     .content2 {
         display: block;
         text-align: center;
-        /* margin-top: 10%; */
         background: #262626;
         padding: 15px 30px;
+    }
+
+    .content2 p {
+        text-align: center;
+        margin-bottom: 15px;
     }
 
     .content2 h1 {
         font-size: 30px;
         color: white;
-        padding-top: 5%;
-
+        padding-top: 35px;
     }
 
     .button {
@@ -107,27 +113,6 @@
         transition: 1s;
     }
 
-    .products {
-        width: 100%;
-        margin-top: -65px;
-        text-align: center;
-        padding-top: 100px;
-        justify-content: center;
-    }
-
-    h1 {
-        font-size: 36px;
-        font-weight: 600;
-    }
-
-    p {
-        color: #777777;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 22px;
-        padding: 10px;
-    }
-
     .container {
         width: 100%;
         min-height: 100vh;
@@ -144,7 +129,7 @@
     .gallery {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 2px;
+        grid-gap: 10px;
     }
 
     .gallery img {
@@ -153,7 +138,7 @@
 
     /* END PRODUCTS--- */
 
-/* NEWS HOME PAGE------------- */
+    /* NEWS HOME PAGE------------- */
 
     .news {
         width: 100%;
@@ -193,12 +178,14 @@
         font-size: 5px;
     }
 
-   
+    .news-col1 h3 {
+        margin-top: 10px;
+        text-align:center;
+    }
 
     .news-col2 h3 {
         margin-top: 10px;
         text-align:center;
-        font-size: 15px;
     }
     .news-col1,
     .news-col2 i {
@@ -206,89 +193,9 @@
     }
 
     /* END---- */
-    /*----HOME CONTACT-------*/
-
-    .contact {
-        margin: 70px auto;
-        width: 80%;
-        background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/customer2.jpg);
-        background-position: center;
-        background-size: cover;
-        border-radius: 10px;
-        text-align: center;
-        padding: 60px 0;
-        margin-top: -5px;
-
-    }
-
-    .contact h1 {
-        color: #ffffff;
-        margin-bottom: 10px;
-        padding: 0;
-        text-align: center;
-        font-size: 20px;
-    }
-
-     .footer{
-        display: none;
-     }
-    .footer2 {
-        display: block;
-        width: 100%;
-        text-align: center;
-        /* padding: 30px 0; */
-    }
-
-    .footer2 p {
-        margin-top: -50px;
-        text-align:center;
-    }
-
-    .footer2 h4 {
-        /* margin-bottom: 25px; */
-        /* margin-top: 120px; */
-        font-weight: 600;
-        font-size: 150%;
-    }
-
-    .soc-med {
-        margin-top: 10px;
-    }
-
-    .soc-med a {
-        text-decoration: none;
-        margin-right: 15px;
-        font-size: 30px;
-        color: red;
-        display: inline-block;
-        transition: transform 1s;
-    }
-
-    .soc-med a:hover {
-        color: black;
-        transform: translateY(-5px);
-    }
-
- .copyright {
-        width: 100%;
-        margin-top: 2%;
-        text-align: center;
-        color: white;
-        padding: 10px 0;
-        background: #262626;
-        font-weight: 600;
-        font-size: 12px;
-    }
-
-    .copyright p {
-        font-size: 100%;
-    }
-
-    .copyright i {
-        color: red;
-    }
-
-    /* ------------END COPYRIGHT------------------*/
+   .footer{
+    margin-top: -5px;
+   }
 
     /* ABOUT US PAGE */
     .sub {
@@ -306,7 +213,7 @@
     }
 
     .sub h1 {
-        padding-top: 8%;
+        padding-top: -8%;
         font-size: 15px;
         text-align: center;
         /* color: #262626; */
@@ -326,7 +233,7 @@
     .about-us2 {
         display: block;
         width: 100%;
-        padding-top: 10px;
+        padding-top: -90px;
     }
 
     .about-col3 img {
@@ -345,18 +252,18 @@
 
     .about-col3 h3 {
         text-align: center;
-        margin-bottom: -10%;
-        /* margin-top: 10%; */
+        /* margin-bottom: -10%; */
+        margin-top: 10;
     }
 
     .about-col3 p {
         padding: 15px;
         text-align: center;
         justify-content: center;
-        /* padding-top: 5%; */
+        padding-top: 5%;
         /* padding-left: 5%; */
         font-size: 13px;
-        margin-top: 10%;
+        /* margin-top: 10%; */
     }
 
     .about-us a {
@@ -397,7 +304,7 @@
     .about-col2 img {
         width: 80%;
         margin-left: 10%;
-        margin-top: -18%;
+        /* margin-bottom: -18%; */
         /* height: 100%; */
 
     }
@@ -405,7 +312,7 @@
     .about-col2 {
         padding: 15px 0 25px;
         /* padding-left: 10%; */
-        margin-top: 5%;
+        margin-top: -8%;
     }
 
     .about-col2 p {
@@ -415,12 +322,12 @@
         /* padding-top: 5%; */
         padding-left: 5%;
         font-size: 13px;
-        /* margin-top: -22px; */
+        margin-top: 5px;
     }
 
     .about-col2 h3 {
         text-align: center;
-        margin-top: 5%;
+        margin-top: 15px;
     }
 
 
@@ -471,56 +378,18 @@
 
     }
 
+    .con-left{
+        margin-top: -8%;
+
+    }
+
     h3{
         color: #777777;
         font-size: 150%;
         text-align: center;
-        margin-bottom: -5%;
-    } 
+        margin-bottom: -5px;
+    }
     
-    .con-left{
-        padding-top: 5%;
-
-    }
-
-    .contact-right {
-        margin-top: -2%;
-    flex-direction: column;
-    }
-
-    .contact-right p {
-        margin-top: 10%;
-        font-size: 112%;
-    }
-
-    .contact-right p i {
-        color: red;
-        /* margin-right: 15px; */
-        font-size: 135%;
-    }
-
-    .content1 {
-        color: #777777;
-        font-weight: 600;
-        margin-bottom: 10px;
-        padding-left: 3%;
-    }
-
-
-
-    h3 {
-        color: #777777;
-        font-size: 160%;
-        justify-content: center;
-        text-align: center;
-        margin-top: 5%;
-    }
-
-    .con-left {
-        /* margin-bottom: 15%; */
-        margin-top: -25%;
-    }
-
     form {
         width: 100%;
         margin-left: -5%;
@@ -535,7 +404,7 @@
         padding: 15px;
         margin: 15px;
         color: #fff;
-        font-size: 12px;
+        font-size: 15px;
         justify-content: center;
         /* border-radius: 6px; */
     }
@@ -548,7 +417,7 @@
         padding: 12px 34px;
         margin-left: 5%;
         justify-content: center;
-        font-size: 18px;
+        font-size: 20px;
         background: red;
         /* position: relative; */
         cursor: pointer;
@@ -563,51 +432,59 @@
         background: orange;
         transition: 1s;
     }
-
+     
+    .contact-right ul li{
+        list-style: none;
+         display: block;
+         flex-wrap: wrap;
+         margin-top: 5%;
+    
+    }
     .contact-right ul li:nth-child(1){
-        padding-left: -25%;
+        padding-left: -5%;
         text-align: center;
         /* margin-bottom: 10px; */
-        padding-top: 5%;
-        margin-left: 5%;
+        /* /* padding-top: 5%; */
+        margin-right: 5%;
     }
-    
+     
     .contact-right ul li:nth-child(2){
-        padding-left: 20%;
+        padding-right: 22%;
         text-align: center;
         /* margin-bottom: 10px; */
-    }
+     } 
     .contact-right ul li:nth-child(3){
-        padding-right: 15%;
+        padding-right: 22%;
         text-align: center;
+    }  
+    
+    .contact-right p {
+        margin-top: 10%;
+        font-size: 112%;
     }
 
     
-    .soc-med1 {
-        margin-top: 20px;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
 
-
-    .soc-med1 a {
-        text-decoration: none;
-        padding-right: -5px;
-        font-size: 40px;
-        color: red;
-        display: inline-block;
-        transition: transform 1s;
-    }
-
-    .soc-med1 a:hover {
-        color: orange;
-        transform: translateY(-5px);
-    }   
-    #msg {
-        color: red;
-        margin-top: 20px;
-        display: block;
-    }
+    
+ .contact-right i {
+    color: white;
+    margin-right: 15px;
+    font-size: 200%;
+    padding: 25px;
+    background: red;
+    border-radius: 40px;
 }
-   
+
+.soc-med1 a {
+    text-decoration: none;
+    padding-right: -5px;
+    font-size: 50px;
+    color: red;
+    display: inline-block;
+    transition: transform 1s;
+}
+
+
+
+}
+
