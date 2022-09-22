@@ -117,8 +117,8 @@ h4{
 }
 
 .shop-item-image {
-    height: 250px;
-    /* width: 100%; use this for the small screen */
+    /* height: 250px; */
+    width: 100%; 
 }
 
 .shop-item-details {
@@ -128,7 +128,7 @@ h4{
 }
 
 .shop-item-price {
-    flex-grow: 1;
+    flex-grow: 2;
     color: #333;
 }
 
