@@ -1,7 +1,7 @@
-/* FOR IPAD RESPONSIVENESS...............................................IPAD............ */
-@media (min-width: 651px) and (max-width: 900px){
+/* FOR TABLET, HOUSE PHONE RESPONSIVENESS...............................................IPAD............ */
+@media (min-width: 901px) and (max-width: 1300px){
 
-#mobile i {
+    #mobile i {
         color: red;
         font-size: 28px;
     }
