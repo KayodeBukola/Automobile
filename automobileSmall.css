@@ -1,5 +1,10 @@
 /* CSS FOR SMALL SCREEN */
 @media only screen and (max-width: 500px) {
+    html,body{
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
     #mobile i {
         color: red;
         font-size: 28px;
@@ -281,47 +286,164 @@
 		font-size: 12px;
 	}
 /* -----------------END SLIDER---------------- */
-    .container {
-        width: 100%;
-        min-height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: none;
-        overflow: hidden;
-        /* max-width: 1200px; */
-        /* margin: auto; */
-        /* justify-content: center; */
-    }
+   
+/* ---------------------ABOUT HOME------------ */
+.abt-home{
+    margin-top: -5px;
+}
+.abt-contain{
+   
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car11.jpg);
+     background-position: center;
+    /* z-index: 8; */
+    background-size: cover;
+    padding: 80px 0;
+    margin-top: 5px;
+    margin: auto;
+    position: relative;
+    height: 250px;
 
-    .gallery {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 2px;
-    }
 
-    .gallery img {
-        width: 100%;
-    }
+ }
 
-    /* END PRODUCTS--- */
+ .abt-hey{
+    background: #f5f5f5;
+    width: 90%;
+    height: 650px;
+    /* z-index: 2; */
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+    /* text-align: justify; */
+ }
+
+ .abt-hey h2{
+    padding-top: 30px;
+    font-size: 20px;
+    margin-left: 40px;
+
+ }
+ .abt-hey p{
+    margin-left: 30px;
+
+ }
+
+ .btn3{
+    display: inline-block;
+    border: 1px solid #e8c15f;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: red;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-top: 5px;
+
+}
+
+.btn3 a {
+    text-decoration: none;
+}
+
+.btn3:hover {
+    border: 1px solid orangered;
+    background: orange;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+/* ----------------END--------------- */
+
+
+/* -----------------why US------------ */
+
+.choose{
+
+   display: none;
+ }
+
+ 
+.con-ch{
+    display: block;
+    padding-top: 520px;
+}
+
+.con-ch h1{
+    /* padding-top:50px; */
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 32px;
+}
+
+.ch-row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ch-row2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ch-row3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.con-ch i{
+    color: white;
+    margin-right: 15px;
+    font-size: 120%;
+    padding: 25px;
+    background: red;
+    border-radius: 40px;
+}
+
+/* END---------------------------- */
+
 
 /* NEWS HOME PAGE------------- */
 
     .news {
         width: 100%;
-        margin: auto;
+        /* margin: auto; */
         padding-top: 70px;
         text-align: center;
-        margin-top: -40px;
+        /* margin-top: -40px; */
+        /* margin-top: 150px; use instead later */
+        margin-top: -50px;
+        
     }
 
     #row {
         flex-direction: column;
     }
 
-    .news-col1,
+   
     .news-col2 {
+        width: 80%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: center;
+        background: #f2dadf;
+        padding: 10px;
+        cursor: pointer;
+        margin-left: 10%;
+
+    }
+    
+    .news-col1 {
         width: 80%;
         border-radius: 10px;
         margin-bottom: 5%;
@@ -349,6 +471,12 @@
    
 
     .news-col2 h3 {
+        margin-top: 10px;
+        text-align:center;
+        font-size: 15px;
+    }
+
+    .news-col1 h3 {
         margin-top: 10px;
         text-align:center;
         font-size: 15px;

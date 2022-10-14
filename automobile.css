@@ -6,14 +6,7 @@
  }
 
  /*------BODY----------*/
- /* .banner {
-     width: 100%;
-     height: 100vh;
-     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car16.jpg);
-     background-size: cover;
-     background-position: center;
-
- } */
+ 
 
 
  .logo {
@@ -23,9 +16,7 @@
 
  /*---NAVIGATION MENU------*/
 
- /* #mobile {
-    color: white;
-} */
+ 
 h4{
     color: white;
 }
@@ -322,51 +313,149 @@ h4{
  /*------END BODY WRITING------*/
 
 
- /*--------PRODUCTS-------*/
- .products {
-     width: 100%;
-     /* margin: auto; */
-     text-align: center;
-     padding-top: 30px;
-     justify-content: center;
- }
+ 
 
- h1 {
-     font-size: 36px;
-     font-weight: 600;
- }
 
- p {
-     color: #777777;
-     font-size: 14px;
-     font-weight: 300;
-     line-height: 22px;
-     padding: 10px;
- }
-
- .container {
-     width: 100%;
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding: 50px 8%;
-     overflow: hidden;
-    
- }
-
- .gallery {
-     display: grid;
-     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-     grid-gap: 50px;
- }
-
- .gallery img {
-     width: 100%;
- }
 
  
- /*------END PRODUCTS-----*/
+
+ /* --------------ABOUT HOME----------- */
+
+
+ .abt-contain{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/car11.jpg);
+     background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+    margin-top: 12px;
+    margin: auto;
+    /* position: relative; */
+    height: 350px;
+
+
+ }
+
+ .abt-hey{
+    background: #d3d3d3;
+    width: 50%;
+    height: 450px;
+    margin-top: 120px;
+    /* position: absolute; */
+    margin-left: 100px;
+ }
+
+ .abt-hey h2{
+    padding-top: 85px;
+    margin-left: 40px;
+ }
+
+ .abt-hey p{
+    margin-left: 30px;
+    /* text-align: justify; */
+
+ }
+
+ .big{
+    font-size: 28px;
+    line-height: 100%;
+    padding-bottom: 5px;
+ }
+
+ .btn3{
+    display: inline-block;
+    border: 1px solid #e8c15f;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: red;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-left: 4%;
+    margin-top: 20px;
+
+}
+
+.btn3 a {
+    text-decoration: none;
+}
+
+.btn3:hover {
+    border: 1px solid orangered;
+    background: orange;
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+ /*------END-----*/
+/* -----------------why US------------ */
+.con-ch{
+    display: none;
+}
+.choose{
+    margin-top: -25%;
+    width: 100%;
+      margin: auto;
+      padding: 10px;
+      justify-content: space-evenly;
+   
+ }
+
+ .choose h1{
+    padding-top:350px;
+    text-align: center;
+    margin-bottom: -22%;
+    /* font-size: 20px; */
+ }
+ 
+ .choose p{
+   font-size: 20px;
+    
+  }
+ 
+ .choose ul li{
+     list-style: none;
+      display: inline-block;
+      flex-wrap: wrap;
+      margin-top: 25%;
+      padding-left: 75px;
+ 
+ }
+ .choose ul li:nth-child(1){
+    text-align: center;
+
+}
+
+.choose ul li:nth-child(2){
+    text-align: center;
+}
+.choose ul li:nth-child(3){
+    text-align: center;
+}
+
+.choose ul li:nth-child(4){
+    text-align: center;
+}
+
+.choose ul li:nth-child(5){
+    /* padding-left: 12%; */
+    text-align: center;
+}
+
+.choose ul li:nth-child(6){
+    text-align: center;
+}
+
+ .choose i {
+    color: white;
+    margin-right: 15px;
+    font-size: 150%;
+    padding: 25px;
+    background: red;
+    border-radius: 40px;
+}
+ 
+
+/* END---------------------------- */
 
  /*-----NEWS-------*/
 
@@ -375,6 +464,8 @@ h4{
      margin: auto;
      padding-top: 30px;
      text-align: center;
+     margin-top: -20px;
+     color: #262626;
 
  }
  #row{
@@ -384,7 +475,7 @@ h4{
 
  .news-col1
  {
-     flex-basis:40%;
+     flex-basis:45%;
      border-radius: 40px;
      margin-bottom: 5%;
      text-align: left;
@@ -396,7 +487,7 @@ h4{
 
  .news-col2
  {
-     flex-basis: 40%;
+     flex-basis: 45%;
      border-radius: 40px;
      margin-bottom: 5%;
      text-align: left;
@@ -420,10 +511,17 @@ h4{
      border-radius: 50%;
  }
 
- .news-col p {
+ .news-col1 p {
      margin: 0;
      padding: 0;
+     color: #777777;
  }
+
+ .news-col2 p {
+    margin: 0;
+    padding: 0;
+    color: #777777;
+}
 
  
  .news-col2 h3 {
@@ -436,6 +534,7 @@ h4{
   h3 {
      margin-top: 15px;
      text-align: left;
+     font-size: 20px;
  }
 
  .news-col1,
